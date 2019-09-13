@@ -653,3 +653,288 @@ iframe {
 	max-height: 60px;
 	max-width: 60px;
 }
+
+@media screen and (max-width: 1024px){
+.image img{ 
+	width: 400px;
+	height: 375px;
+}
+.image {
+	display: flex;
+	justify-content: center;
+}
+.nav {
+	display: none;
+}
+.icon {
+	margin-left: 16px;
+	width: 100%;
+	padding-right: 16px;
+}
+.icon p{
+	font-size: 16px;
+}
+.info1 p{
+	font-size: 16px;
+}
+.info2 p{
+	font-size: 16px;
+}
+.img2 {
+	width: 280px;
+	height: 250px;	
+}
+.img3 {
+	width: 300px;
+	height: 250px;	
+	margin-left: -70px;
+}
+.seven li{
+	min-width: 620px;
+}
+.scheme {
+	display: none;
+}
+.myslides {
+	padding-top: 30px;
+}
+.maps {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.form {
+	display: none;
+}
+.upstairs a{
+	padding-right: 0px;
+
+}
+}
+@media screen and (max-width: 768px){
+.logo {
+	margin-left: 16px;
+}
+.contact {
+	margin-right: 16px
+}
+.section {
+	display: none;
+}
+.sectionm{
+	display: block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.titlem { 
+	margin-top: 30px; 
+	display: flex;
+	flex-direction: column;
+}
+.titlem h1{
+	text-align: center;
+	font-size: 24px;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 30px;
+}
+.titlem img{
+	margin:0 auto;
+}
+.btn1 {
+	margin:0 auto;
+	margin-top: 60px;
+	
+}
+.icon {
+	padding-top: 30px;
+	margin:0 auto;
+	width: 80%;
+	flex-direction: column;
+}
+.icon p{
+	width: 100%;
+	max-width: 310px;
+	font-size: 18px;
+}
+.goods img{
+	display: none;
+}
+.img2 {
+	display: none;
+}
+.img3 {
+	display: none;
+}
+.info1 {
+	margin-left: 16px;
+}
+.info2 {
+	margin-left: 16px;
+}
+.seven li{
+	min-width: 300px;
+}
+.seven {
+	height: 350px;
+}
+.wrapm {
+	display: flex;
+}
+.wrap {
+	display: none;
+}
+.text {
+	text-align: center;
+	margin-left: 0px;
+}
+.text p{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.text a{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 0px;
+	padding-right: 0px;
+}
+h4 {
+	font-size: 18px;
+}
+iframe {
+	width: 500px;
+	height: 354px;
+}
+}
+@media screen and (max-width: 620px){
+.soc {
+	display: none;
+}
+.upstairs {
+	display: none;
+}
+iframe {
+	width: 400px;
+	height: 354px;
+}
+.work {
+	padding-bottom: 10px;
+}
+}
+@media screen and (max-width: 440px){
+.contact h2{
+	font-size: 18px;
+}
+.contact h3{
+	display: none;
+}
+.logo img{
+
+	width: 124px;
+	height: 40px;
+}
+.header {
+	height: 65px;
+}
+.titlem h1 {
+	font-size: 20px;
+}
+.image img{
+	width: 240px;
+	height: 230px;
+}
+.btn1 {
+	width: 240px;
+}
+.first {
+	height: 565px;
+}
+.creativity {
+	height: 370px;
+}
+.holiday {
+	height: 370px;
+}
+.game {
+	height: 370px;
+}
+.seven {
+	height: 410px;
+}
+.seven ul{
+	width: 95%;
+	margin-left: 16px;
+	font-size: 16px;
+}
+.seven li {
+	width: 95%;
+	padding-right: 16px;
+}
+.text p{
+	width: 205px;
+	font-size: 15px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.text a{
+	font-size: 14px;
+	margin-top: 0px;
+}	
+.slideshowm {
+	height: 270px;
+}
+h4 {
+	font-size: 18px;
+}
+h2 {
+	font-size: 20px;
+}
+.reasons {
+	font-size: 20px;
+}
+.work {
+	font-size: 20px;
+}
+iframe {
+	width: 320px;
+	height: 354px;
+}
+.work {
+	padding-bottom: 0px;
+}
+.maps {
+	padding-right: 15px;
+	padding-left: 24px;
+	padding-top: 10px;
+	width: 100%;
+	height: 376px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+.myslidesm {
+    min-width: 270px;
+}
+}
+@media screen and (max-width: 370px){
+	.myslidesm {
+    min-width: 240px;
+}
+}
+@media screen and (max-width: 340px){
+	.myslidesm {
+    min-width: 220px;
+}
+
+@media screen and (max-width: 330px){
+	.myslidesm {
+    min-width: 212px;
+}
+}
+@media screen and (max-width: 320px){
+	.myslidesm {
+    min-width: 205px;
+}
+}
